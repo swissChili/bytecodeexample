@@ -13,15 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c452373b-ea24-45e2-a6e4-578a7dc7bd0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvmc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bytecode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/generator.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/generator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bytecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bytecode" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +153,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
+            <state relative-caret-position="439">
               <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -308,23 +300,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543264457865</updated>
-      <workItem from="1543264459001" duration="16073000" />
+      <workItem from="1543264459001" duration="16178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16073000" />
+    <option name="totallyTimeSpent" value="16178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -441,7 +432,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
+        <state relative-caret-position="439">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>

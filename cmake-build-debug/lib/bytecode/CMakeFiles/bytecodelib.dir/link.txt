@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbytecodelib.a  CMakeFiles/bytecodelib.dir/bytecode/bytecode.c.o CMakeFiles/bytecodelib.dir/bytecode/generator.c.o
-/usr/bin/ranlib libbytecodelib.a
