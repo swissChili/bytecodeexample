@@ -1,0 +1,3 @@
+[submodule "lib/bytecode"]
+	path = lib/bytecode
+	url = git@github.com:swissChili/bytecodelib.git

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bytecodelib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\bytecode\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bytecodelib">
+				<Option output="/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/libbytecodelib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 bytecodelib"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bytecodelib/fast">
+				<Option output="/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/libbytecodelib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 bytecodelib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cake/projects/development/bytecode_parser/cmake-build-debug/lib/bytecode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/lib/bytecode/bytecode/bytecode.c">
+			<Option target="bytecodelib"/>
+		</Unit>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/lib/bytecode/bytecode/bytecode.h">
+			<Option target="bytecodelib"/>
+		</Unit>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/lib/bytecode/bytecode/generator.c">
+			<Option target="bytecodelib"/>
+		</Unit>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/lib/bytecode/bytecode/generator.h">
+			<Option target="bytecodelib"/>
+		</Unit>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cake/projects/development/bytecode_parser/lib/bytecode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bytecode\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
