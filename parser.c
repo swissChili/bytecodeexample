@@ -16,7 +16,7 @@ int main ( int argc, char **argv )
     bytecode e = escape_byte(check);
     printf("Dumping equation for %d\n", check);
     printf("%d = ", check);
-    for ( int i = 0; i < e.length; ++i )
+    for ( int i = 0; i < e.length; ++ i )
     {
         printf("%d ", e.content[i]);
     }

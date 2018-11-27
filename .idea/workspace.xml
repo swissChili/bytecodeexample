@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="bytecode-parser" targetName="bytecodelib" />
       <config projectName="bytecode-parser" targetName="parser" />
+      <config projectName="bytecode-parser" targetName="bytecodelib" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,7 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c452373b-ea24-45e2-a6e4-578a7dc7bd0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bytecode" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bytecode/bytecode/generator.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bytecode/bytecode/generator.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/parser.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +47,9 @@
     <session id="461200333">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,10 +72,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GDB" value="47" />
-          <entry key="c" value="5319" />
-          <entry key="h" value="1446" />
+          <entry key="c" value="5573" />
+          <entry key="h" value="1460" />
           <entry key="m" value="5" />
-          <entry key="rst" value="1798" />
+          <entry key="rst" value="2549" />
           <entry key="txt" value="158" />
         </counts>
       </usages-collector>
@@ -76,37 +83,20 @@
         <counts>
           <entry key="CMakeLists.txt" value="158" />
           <entry key="GDBCommands" value="47" />
-          <entry key="ObjectiveC" value="6770" />
+          <entry key="ObjectiveC" value="7038" />
           <entry key="PLAIN_TEXT" value="1798" />
+          <entry key="ReST" value="751" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bytecode/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parser.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="140">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -117,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="1120">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -129,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="980">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="e#541#560#0" expanded="true" />
               </folding>
@@ -141,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/generator.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
+            <state relative-caret-position="3108">
+              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -153,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="815">
+              <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -191,10 +181,10 @@
         <option value="$PROJECT_DIR$/cvmc.h" />
         <option value="$PROJECT_DIR$/lib/bytecode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/lib/bytecode/bytecode/generator.h" />
+        <option value="$PROJECT_DIR$/lib/bytecode/bytecode/generator.c" />
         <option value="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h" />
         <option value="$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c" />
         <option value="$PROJECT_DIR$/parser.c" />
-        <option value="$PROJECT_DIR$/lib/bytecode/bytecode/generator.c" />
         <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
@@ -300,22 +290,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543264457865</updated>
-      <workItem from="1543264459001" duration="16178000" />
+      <workItem from="1543264459001" duration="16841000" />
+      <workItem from="1543337020062" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16178000" />
+    <option name="totallyTimeSpent" value="17247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -349,20 +341,19 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/bytecode/generator.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bytecode/generator.h">
+    <entry file="file://$PROJECT_DIR$/lib/bytecode/generator.c" />
+    <entry file="file://$PROJECT_DIR$/lib/bytecode/generator.h" />
+    <entry file="file://$PROJECT_DIR$/cvmc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="140">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="196">
+          <caret line="7" column="15" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -373,10 +364,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cvmc.h">
+    <entry file="file://$PROJECT_DIR$/parser.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#541#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/generator.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3108">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,50 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#541#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/bytecode.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bytecode/bytecode/generator.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
-          <folding>
-            <element signature="e#39#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="815">
+          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
         </state>
       </provider>
     </entry>
